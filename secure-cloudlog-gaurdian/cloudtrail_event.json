@@ -1,0 +1,12 @@
+{
+  "eventTime": "2026-03-02T12:30:00Z",
+  "eventSource": "logs.amazonaws.com",
+  "eventName": "DeleteLogGroup",
+  "userIdentity": {
+    "type": "AssumedRole",
+    "arn": "arn:aws:iam::123456789012:role/DevRole"
+  },
+  "requestParameters": {
+    "logGroupName": "/aws/lambda/prod-app"
+  }
+}
